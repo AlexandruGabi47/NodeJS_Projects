@@ -1,0 +1,15 @@
+<% include ../partials/meta.ejs %>
+<title>Welcome</title>
+<% include ../partials/header.ejs %>
+
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <% if(preference !== 'girl') { %>
+      <img src="/static/keep_calm.gif" alt="" class="mx-auto">
+      <% } else %>
+        <img src="https://i.imgur.com/KOXOBiN.gif" alt="" class="mx-auto">
+    </div>
+  </div> <!-- row -->
+   
+
+  <% include ../partials/footer.ejs %>

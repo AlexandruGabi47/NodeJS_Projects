@@ -1,0 +1,18 @@
+
+<% include ../partials/meta.ejs %>
+<title>Welcome</title>
+<% include ../partials/header.ejs %>
+    <form action="hello" method="POST">
+        <div>
+            <label for="nume">Nume</label>
+            <input type="text" name="nume" id="nume" >
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+        <textarea></textarea>
+        <input type="checkbox" checked>
+    </form>
+<% include ../partials/footer.ejs %>
